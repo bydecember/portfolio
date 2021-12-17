@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* body{font-family: 'Noto Sans KR', sans-serif;}  */
+.head_title h2{border-left:3px solid #DE8971;}
+.main-portfolio .button:active,
+ .main-portfolio .button.is-checked{background-color: #A7D0CD;}
+
+.bg-black{background-color: #7B6079;}
+.bg-yellow{background-color: #DE8971;}
+.bg-grey{background-color: rgba(255, 233, 214,0.3)}
+
+/* nav=========== */
+nav.navbar.bootsnav{background-color: #A7D0CD;}
+nav.navbar.bootsnav.no-background.white ul.nav > li.active > a{color: #DE8971;}
+nav.navbar.bootsnav ul.nav li.active > a{color: #FFE9D6;}
+nav.navbar.bootsnav .navbar-toggle{background-color: #A7D0CD !important;}
+
+/* home========= */
+#home h1{color: #FFE9D6;}
+/* .home_text h1{font-family: 'Playfair Display', serif; letter-spacing: 10px;} */
+/* .main_about h1{font-family: 'Noto Sans KR', sans-serif;} */
+.main_about h3{letter-spacing: 3px;}
+.navbar-brand > img{transform: translateY(-33%);}
+
+/* about========= */
+#about h3{text-transform: none;}
+.teams_item p{font-family:'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px;}
+.features .d_none{display:none;}
+
+
+/* skill======== */
+.teams .img-circle{border-radius: 0;}
+#teams{background-color: rgba(255, 233, 214,0.5);}
+.teamskillbar-bar{background-color: #7B6079;}
+.main-portfolio .button:hover{background-color: rgba(167,208,205,0.7);}
+.teams .featured_content p{font-family:'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15px;}
+
+/* Preloader=====*/
+#loading{background-color: #A7D0CD;}
+
+/* portfolio======= */
+img.mfp-img{max-height: none !important; max-width: 900px;}
+/* .girid_hover_text{margin-top: 70px;} */
+
+/* footer======= */
+footer{color: #FFFFFF; font-weight: 100; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; } 
+.m-top-40{margin: 20px 0 5.714rem;}
+.widget_about{margin-bottom: 5.714rem;}
+footer .text-white{color: #FFE9D6 !important;}
+footer .widget_area h5{font-size: 2rem; margin-bottom: 40px;}
+/* footer h6{font-weight: 400;} */
+
+footer .widget_brand img{height: 50px; width: auto; margin-top: 50px; margin-left: 30px;}
+footer .mail{margin-top: 35px;}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .features .d_none{display: block;}
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .navbar-brand > img{transform: translateY(-50%);}
+  }
+
+/* Portrait tablets and small desktops */
+@media (max-width:  991px) {
+  .navbar-brand > img{transform: translateY(-45%);}
+
+  .m-top-40{margin: 0 0 5.714rem;}
+  .widget_about{margin-bottom: 2.714rem;}
+
+  footer .mail{margin-top: 0;}
+  footer .widget_brand img{margin-top: 0; margin-left: 0;}
+
+}
+@media (max-width: 320px) {
+  .teams {font-size: 60.5%;}
+}
+
