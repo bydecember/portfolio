@@ -64,7 +64,7 @@ footer .mail{margin-top: 35px;}
 
 /* Portrait tablets and small desktops */
 @media (max-width:  991px) {
-  .navbar-brand > img{transform: translateY(-45%);}
+  .navbar-brand > img{transform: translateY(-45%); width: 40px;}
 
   .m-top-40{margin: 0 0 5.714rem;}
   .widget_about{margin-bottom: 2.714rem;}
@@ -72,6 +72,9 @@ footer .mail{margin-top: 35px;}
   footer .mail{margin-top: 0;}
   footer .widget_brand img{margin-top: 0; margin-left: 0;}
 
+}
+@media(max-width: 400px){
+  #home h1{font-size: 70px;}
 }
 @media (max-width: 320px) {
   .teams {font-size: 60.5%;}
